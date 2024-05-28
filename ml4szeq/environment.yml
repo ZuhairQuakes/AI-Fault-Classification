@@ -1,0 +1,21 @@
+name: earthquakes
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - jupyter
+  - pytorch
+  - pandas
+  - matplotlib
+  - numpy
+  - scipy
+  - wandb
+  - tqdm
+  - black
+  - netcdf4
+  - cartopy
+  - plotly
+  - scikit-learn
+  - pip
