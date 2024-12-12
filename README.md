@@ -1,7 +1,5 @@
 # xai-megathrust
-Repository for the codes used in the paper: Testing driving mechanisms of megathrust seismicity with Explainable Artificial Intelligence.
-
-Collaborators: Juan Carlos Graciosa, Fabio A. Capitanio, Adam Beall, Mitchell Hargreaves, Thyagarajulu Gollapalli, Titus Tang, Mohd Zuhair
+Repository for the codes used in the research: Testing driving mechanisms of big earthquakes with Explainable Artificial Intelligence.
 
 ## Directories:
 1. helper_pkg: Package containing helper routines used during the creation of grids.
