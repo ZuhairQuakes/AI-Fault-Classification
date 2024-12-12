@@ -1,5 +1,4 @@
-# xai-megathrust
-Repository for the codes used in the research: Testing driving mechanisms of big earthquakes with Explainable Artificial Intelligence.
+# Explainable Artificial Intelligence for understanding the mechanism behind big earthquakes
 
 ## Directories:
 1. helper_pkg: Package containing helper routines used during the creation of grids.
