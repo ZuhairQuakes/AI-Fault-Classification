@@ -6,7 +6,7 @@ I integrated diverse datasets (geophysical, kinematic, and dynamic features) for
 
 Through this project, I developed skills in handling large-scale geospatial data, designing robust ML pipelines, and deriving actionable insights.
 
-This work has recently been accepted into a Tier 1 peer-reviewed journal. It was also selected for presentation at the European Geosciences Union's General Assembly 2022 in Vienna, Austria: https://ui.adsabs.harvard.edu/abs/2022EGUGA..2411060G/abstract
+This work has recently been accepted into a Tier 1 peer-reviewed journal. It was also selected for a presentation at the European Geosciences Union's General Assembly 2022 in Vienna, Austria: https://ui.adsabs.harvard.edu/abs/2022EGUGA..2411060G/abstract
 
 --------------------------
 
