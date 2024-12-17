@@ -1,6 +1,6 @@
 ## Data-Driven Earthquake Hazard Mapping Using PyTorch Neural Networks and Sklearn Tools
 
-This research leverages Machine Learning and Explainable AI (XAI) to identify mechanisms driving megathrust fault seismicity (large earthquakes, Mw > 8.0) across global subduction zones. The goal is to classify fault segments based on earthquake magnitude using ML and to determine which geophysical features are most influential.
+This project leverages Machine Learning and Explainable AI (XAI) to identify mechanisms driving megathrust fault seismicity (large earthquakes, Mw > 8.0) across global subduction zones. The goal is to classify fault segments based on earthquake magnitude using ML and to determine which geophysical features are most influential.
 
 I integrated diverse datasets (geophysical, kinematic, and dynamic features) for training a neural network to classify earthquake-prone regions. I applied Layerwise Relevance Propagation (LRP) to uncover the most significant features driving predictions, enhancing model interpretability.
 
