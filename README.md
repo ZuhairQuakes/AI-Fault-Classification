@@ -12,7 +12,7 @@ This project leverages Machine Learning and Explainable AI (XAI) to identify mec
 
 - Engineered geophysical metrics such as cumulative seismic moment, energy, and event classifications to enrich model inputs.
 
-*Model Development:*
+***Model Development:***
 
 - Designed and trained a modular **Fully Connected Neural Network (FCN)** in PyTorch, supporting both classification and regression tasks.
 
