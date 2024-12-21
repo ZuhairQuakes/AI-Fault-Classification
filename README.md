@@ -1,56 +1,78 @@
-## Data-Driven Earthquake Hazard Mapping Using PyTorch Neural Networks and Sklearn Tools
+# Neural Network Framework for Subduction Zone Classification
 
-This project leverages Machine Learning and Explainable AI (XAI) to identify mechanisms driving megathrust fault seismicity (large earthquakes, Mw > 8.0) across global subduction zones. The goal is to classify fault segments based on earthquake magnitude using ML and to determine which geophysical features are most influential.
+## Project Overview
+This project applies machine learning to classify subduction faults based on geophysical and kinematic data. Using a neural network model, the framework integrates physical, dynamic, and kinematic parameters to identify fault behaviours and provide feature-relevance insights. The model is validated on globally distributed datasets and demonstrates high performance in classifying seismic zones, with potential applications in hazard assessment and resource exploration.
 
-**Key Steps:**
+## Key Features
+**Multi-dimensional Data Integration:**
+Combines geophysical (e.g., curvature, strain rate) and kinematic (e.g., trench velocity, slab depth) parameters.
 
-***Data Preprocessing and Feature Engineering:***
+**Neural Network Classification:**
+Implements a custom neural network for robust subduction zone classification.
 
-- Collected and processed heterogeneous datasets, including physical features (e.g., strain rates, curvature), dynamic slab properties, and kinematic trench motions.
+**Explainable AI:**
+Uses Layer-wise Relevance Propagation (LRP) to interpret model predictions and highlight critical features.
 
-- Applied grid-based spatial sampling to ensure consistent feature extraction across regions.
+**Global Applicability:**
+Trained and tested on datasets from subduction zones worldwide, ensuring scalability and generalization.
 
-- Engineered geophysical metrics such as cumulative seismic moment, energy, and event classifications to enrich model inputs.
+## Applications
+**Seismic Hazard Assessment:**
+Identifies regions prone to significant seismic activity.
 
-***Model Development:***
+**Resource Exploration:**
+Guides exploration in tectonically active regions by analyzing subsurface dynamics.
 
-- Designed and trained a modular **Fully Connected Neural Network (FCN)** in PyTorch, supporting both classification and regression tasks.
+**Subsurface Modeling:**
+Improves understanding of tectonic processes critical for engineering and infrastructure planning.
 
-- Employed robust techniques such as dropout, batch normalization, and multi-task learning to enhance model generalization.
+## Technologies Used
+**Programming**: Python
 
-- Conducted hyperparameter tuning using random search to optimize network performance.
+**Libraries**: PyTorch, scikit-learn, NumPy, pandas
 
-***Evaluation and Validation:***
+**Visualization**: Cartopy, Seaborn, Plotly, matplotlib
 
-- Implemented cross-validation to assess model performance, using metrics such as F1-score, accuracy, and confusion matrices.
+**Explainability**: Layer-wise Relevance Propagation (LRP)
 
-- Validated the model on unseen regions to ensure robustness and scalability.
+## Results
+**Performance Metrics:**
+- F1-score of 0.85 for binary classification (M < 8.0 vs M ≥ 8.0)
+- Robust performance across exclusion distances up to 600 km.
 
-- Explainability with Layerwise Relevance Propagation (LRP):
+**Feature Relevance:**
+- Identified slab depth and curvature as key predictors, enabling interpretable decision-making.
 
-- Utilized LRP to identify key geophysical features influencing predictions, enhancing the model’s interpretability.
-
-- Visualized relevance heatmaps to highlight critical regions and features, aiding scientific understanding and decision-making.
-
-***Visualization and Deployment:***
-
-- Generated geospatial classification maps and relevance heatmaps using Cartopy and Matplotlib to communicate results effectively.
-
-- Created modular pipelines for model deployment and inference on new datasets.
-
-**Key Results:**
-
-- Achieved accurate classification of earthquake-prone regions, with F1-scores ranging between 0.568 and 0.864.
-
-- Identified critical features such as slab depth curvature, sediment thickness, and trench-parallel stresses as significant drivers of seismic activity.
-
-- Reduced manual data processing time by automating the entire pipeline, enabling scalable and reproducible ML workflows.
+## Future Work
+- Expand the dataset to include additional subduction zones.
+- Optimize the model for real-time applications.
+- Incorporate additional geophysical features (e.g., heat flow, lithospheric thickness).
 
 
+## Peer-reviewed journal articles
 This work has recently been accepted into a Tier 1 peer-reviewed journal. It was also selected for a presentation at the European Geosciences Union's General Assembly 2022 in Vienna, Austria: https://ui.adsabs.harvard.edu/abs/2022EGUGA..2411060G/abstract
 
---------------------------
+----------------------------------
 
+## Model Architecture
+The neural network architecture used in this project is illustrated below:
+
+![Neural Network Architecture](images/model-architecture.png "Neural Network Architecture")
+
+This figure illustrates a neural network-based framework for classifying subduction zones using geophysical and kinematic data. It integrates physical, dynamic, and kinematic parameters (Panel a and b), with systematic training/testing along segments (Panel c). The network classifies subduction behaviors and analyzes feature relevance (Panel d), enhancing insights into hazard assessment and resource exploration.
+
+---
+
+## Performance Evaluation
+The model's performance was evaluated using F1-scores across varying exclusion distances:
+
+![Performance Results](images/results.png "Performance Evaluation Results")
+
+This figure evaluates the F1-score performance of a classification model for earthquake magnitude categories across varying exclusion distances. Panel A compares two classes (Mw < 8.0) and (Mw ≥ 8.0), while Panel B evaluates three classes (Mw < 6.4), (6.4 ≤ Mw < 8.3), (Mw ≥ 8.3). The plots (a-e) depict trends in model accuracy with increasing exclusion distances, highlighting the model's robustness and sensitivity to data partitioning.
+
+----------------------
+
+## About the repo
 
 **helper_pkg**: serves as a foundation for Machine Learning (ML) workflows by enabling efficient data preparation, feature engineering, and spatial sampling.
 
