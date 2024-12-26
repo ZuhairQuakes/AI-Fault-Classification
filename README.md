@@ -1,4 +1,4 @@
-# Neural Network Framework for Earthquake Hazard and Exploration Applications
+# Novel ML Framework for Classifying Large Earthquake Features Globally
 
 ## Project Overview
 This project applies machine learning to classify subduction faults based on geophysical and kinematic data. Using a neural network model, the framework integrates physical, dynamic, and kinematic parameters to identify fault behaviours and provide feature-relevance insights. The model is validated on globally distributed datasets and demonstrates high performance in classifying seismic zones, with potential applications in hazard assessment and resource exploration.
@@ -50,7 +50,7 @@ Improves understanding of tectonic processes critical for engineering and infras
 
 
 ## Peer-reviewed journal articles
-This work has recently been accepted into a Tier 1 peer-reviewed journal. It was also selected for a presentation at the European Geosciences Union's General Assembly 2022 in Vienna, Austria: https://ui.adsabs.harvard.edu/abs/2022EGUGA..2411060G/abstract
+This work has recently been accepted into a Tier 1 peer-reviewed journal. It was also selected for a presentation at the European Geosciences Union's General Assembly 2022 in Vienna, Austria.
 
 ----------------------------------
 
