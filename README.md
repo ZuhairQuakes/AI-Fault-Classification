@@ -4,53 +4,16 @@
 This project applies machine learning to classify subduction faults based on geophysical and kinematic data. Using a neural network model, the framework integrates physical, dynamic, and kinematic parameters to identify fault behaviours and provide feature-relevance insights. The model is validated on globally distributed datasets and demonstrates high performance in classifying seismic zones, with potential applications in hazard assessment and resource exploration.
 
 ## Key Features
-**Multi-dimensional Data Integration:**
-Combines geophysical (e.g., curvature, strain rate) and kinematic (e.g., trench velocity, slab depth) parameters.
-
-**Neural Network Classification:**
-Implements a custom neural network for robust subduction zone classification.
-
-**Explainable AI:**
-Uses Layer-wise Relevance Propagation (LRP) to interpret model predictions and highlight critical features.
-
-**Global Applicability:**
-Trained and tested on datasets from subduction zones worldwide, ensuring scalability and generalization.
-
-## Applications
-**Seismic Hazard Assessment:**
-Identifies regions prone to significant seismic activity.
-
-**Resource Exploration:**
-Guides exploration in tectonically active regions by analyzing subsurface dynamics.
-
-**Subsurface Modeling:**
-Improves understanding of tectonic processes critical for engineering and infrastructure planning.
-
-## Technologies Used
-**Programming**: Python
-
-**Libraries**: PyTorch, scikit-learn, NumPy, pandas
-
-**Visualization**: Cartopy, Seaborn, Plotly, matplotlib
-
-**Explainability**: Layer-wise Relevance Propagation (LRP)
-
-## Results
-**Performance Metrics:**
-- F1-score of 0.85 for binary classification (M < 8.0 vs M ≥ 8.0)
-- Robust performance across exclusion distances up to 600 km.
-
-**Feature Relevance:**
-- Identified slab depth and curvature as key predictors, enabling interpretable decision-making.
-
-## Future Work
-- Expand the dataset to include additional subduction zones.
-- Optimize the model for real-time applications.
-- Incorporate additional geophysical features (e.g., heat flow, lithospheric thickness).
-
+- Multi-dimensional Data Integration
+- Implements a custom neural network for subduction fault classification.
+- Uses Layer-wise Relevance Propagation (LRP) to interpret model predictions and highlight critical features.
+- Trained and tested on datasets from worldwide, ensuring scalability and generalization.
+- Identifies regions prone to significant seismic activity.
+- Guides exploration in tectonically active regions by analyzing subsurface dynamics.
+- Improves understanding of tectonic processes critical for engineering and infrastructure planning.
 
 ## Peer-reviewed journal articles
-This work has recently been accepted into a Tier 1 peer-reviewed journal. It was also selected for a presentation at the European Geosciences Union's General Assembly 2022 in Vienna, Austria.
+This work has recently been accepted into a Tier 1 peer-reviewed journal. The link will be shared once it is online.
 
 ----------------------------------
 
@@ -59,7 +22,7 @@ The neural network architecture used in this project is illustrated below:
 
 ![Neural Network Architecture](images/model-architecture.png "Neural Network Architecture")
 
-This figure illustrates a neural network-based framework for classifying subduction zones using geophysical and kinematic data. It integrates physical, dynamic, and kinematic parameters (Panel a and b), with systematic training/testing along segments (Panel c). The network classifies subduction behaviors and analyzes feature relevance (Panel d), enhancing insights into hazard assessment and resource exploration.
+This figure illustrates a neural network-based framework for classifying subduction zones using geophysical and kinematic data. It integrates physical, dynamic, and kinematic parameters (Panel a and b), with systematic training/testing along segments (Panel c). The network classifies subduction behaviours and analyzes feature relevance (Panel d), enhancing insights into hazard assessment and resource exploration.
 
 ---
 
@@ -72,7 +35,7 @@ This figure evaluates the F1-score performance of a classification model for ear
 
 ----------------------
 
-## About the repo
+## How to use the repo
 
 **helper_pkg**: serves as a foundation for Machine Learning (ML) workflows by enabling efficient data preparation, feature engineering, and spatial sampling.
 
