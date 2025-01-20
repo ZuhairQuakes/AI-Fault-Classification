@@ -1,4 +1,4 @@
-# Novel ML Framework for Classifying Large Earthquake Features Globally
+# Artificial intelligence to identify the controlling factors influencing megathrust earthquakes
 
 ## Project Overview
 This project applies machine learning to classify subduction faults based on geophysical and kinematic data. Using a neural network model, the framework integrates physical, dynamic, and kinematic parameters to identify fault behaviours and provide feature-relevance insights. The model is validated on globally distributed datasets and demonstrates high performance in classifying seismic zones, with potential applications in hazard assessment and resource exploration.
