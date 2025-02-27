@@ -13,7 +13,7 @@ This project applies machine learning to classify subduction faults based on geo
 - Improves understanding of tectonic processes critical for engineering and infrastructure planning.
 
 ## Peer-reviewed journal articles
-This work has recently been accepted into a Tier 1 peer-reviewed journal. The link will be shared once it is online.
+This work has recently been accepted into a Tier 1 peer-reviewed journal: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2024JB028774
 
 ----------------------------------
 
