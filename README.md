@@ -1,4 +1,4 @@
-# Explainable Artificial Intelligence (XAI) pipeline to predict seismic magnitude classes and to interpret the model's decisions
+# Explainable Artificial Intelligence (XAI) pipeline to predict seismic magnitude classes and interpret the model's decisions
 
 ## 🌍 Overview
 
